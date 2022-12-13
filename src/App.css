@@ -1,10 +1,22 @@
 .App {
-  text-align: center;
+  align-items: center;
+   
+   
+   
+}
+.container{
+  margin-left: 40%;
+  background-color: rgb(218, 186, 45);
+  width: 900px;
+ text-align: center;
+ margin-top: 70px;
+ border-radius: 50px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -25,7 +37,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #8f61fb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +47,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.input-button{
+ 
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.button{
+  
+  border-radius: 5px;
+  background-color: #63194a;
+  margin-left: 10px;
 }
